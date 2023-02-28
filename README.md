@@ -1,11 +1,15 @@
 # kirkinman.github.io
 
+I code.
 
-### Skills
+
+### Languages
 
 - python
 - javascript
-- excell
+- excel
+- swift
+- html
 
 
 

@@ -14,5 +14,20 @@
 	background-color: #22A699;
 }
 
+li {
+	font-family: 'Orbitron', sans-serif;
+	
+}
+
+p {
+	font-family: 'Orbitron', sans-serif;
+	font-weight: bold;
+}
+
+.bar {	
+font-family: 'Orbitron', sans-serif;
+font-size: 72px;
+font-style: center;
+}
 
 

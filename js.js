@@ -1,9 +1,9 @@
-var bench = ["175"]
-var pulldown = ["140"]
-var shlders = ["115"]
-var squats = ["155"]
-var deadlift = ["155"]
-var abs = ["60"]
+var bench = ["195"]
+var pulldown = ["180"]
+var shlders = ["125"]
+var squats = ["180"]
+var deadlift = ["180"]
+var abs = ["70"]
 
 function chest(){
 	document.getElementsByTagName("li")[0].innerHTML = "monday" + bench;

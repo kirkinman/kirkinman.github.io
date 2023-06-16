@@ -56,7 +56,7 @@ function confirm_one(){
 		var two = document.getElementById("change_one").innerHTML="Stop it!";
 	}
 	document.getElementsByTagName("li").innerHTML="done";
-	document.getElementById("msg").textContent="confirmed";
+	document.getElementById("msg").textContent= data_updater + " Confirmed! Great Job!";
 	
 	
 }

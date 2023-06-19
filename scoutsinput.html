@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="scoutstyles.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					
+				
+				
+				
+			
+			
+		
+					<button type="button" onclick="next()">next</button>
+				</div>
+				
+				
+			<div class="col-sm-4">
+				<button id=change_one type="button" onclick="confirm_one()">confirm one</button>
+			</div>
+<!--		easier solution without arguments
+			for check it you enter the info into a text box as input instead of using an input-->
+<!--		1. input the letter into the box item-->
+<!--		2. list item populates-->
+			<div class="col-sm-4">
+			<button id=refresher type="button" onclick="clear_all()">clear</button>
+			</div>
+			
+						
+		
+		<p id=msg> </p>
+			</div>
+			
+			
+			
+		<div class="row">
+		<ul class="list-group list-group-flush">
+			<li id=checker_1>
+	
+				<button id=checker_1 type="button" onclick="check_it(0)">👀</button>
+				
+			</li>
+			<li>
+				
+				<button id=checker_1 type="button" onclick="check_it(1)">.C</button>
+			</li>
+			<li>
+				<button id=checker_1 type="button" onclick="check_it(2)">Oooh okay</button>
+			</li>
+			<li>
+				<button id=checker_1 type="button" onclick="check_it(3)">U</button>
+			</li>
+			<li>
+				<button id=checker_1 type="button" onclick="check_it(4)">T</button>
+			</li>
+			<li>
+				<button id=checker_1 type="button" onclick="check_it(5)">S</button>
+			</li>
+			<div class="nolist">
+				
+			</div>
+
+			
+<!--			#problem: how would you use links as list items that use the same function that shoots back only the item for that bullet?-->
+<!--			1. the link or button says its own list number or ID-->
+<!--			-->
+<!--			the information can go into an input-->
+<!--			the link or button returns a call with the list number in parenthesis and a function processes the information in parenthesis as a call;-->
+<!--another solution is to use id tags-->
+
+		</ul>
+		
+<script src="scoutjavascript.js">
+	next();
+	confirm_one();
+	check_it(num);
+	clear_all():
+</script>
+
+	
+		
+
+	</body>
+</html>

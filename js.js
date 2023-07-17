@@ -1,4 +1,4 @@
-var bench = ["195"]
+var bench = ["145"]
 var pulldown = ["180"]
 var shlders = ["125"]
 var squats = ["180"]

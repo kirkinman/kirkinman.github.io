@@ -1,8 +1,3 @@
-var songs = [
-	"High Horse.mp3",
-	"Lake Life.mp3",
-]
-
 $("h1").click(function() {
 	$("h1").text("lava blast!");
 	$("h1").css("color", "red");
@@ -10,7 +5,7 @@ $("h1").click(function() {
 
 $("button").click(function() {
 	var nums = this.innerHTML;
-	var song1 = new Audio(songs[nums]);
+	var song1 = new Audio(nums+".mp3");
 	song1.play();
 	
 	$("h1").text("Sample: High Horse");

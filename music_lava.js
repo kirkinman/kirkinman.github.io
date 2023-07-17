@@ -4,10 +4,10 @@ $("h1").click(function() {
 });
 
 $("button").click(function() {
-	var nums = this.innerHTML;
-	var song1 = new Audio(nums+".mp3");
+	var song = this.innerHTML;
+	var song1 = new Audio(song+".mp3");
 	song1.play();
 	
-	$("h1").text("Sample: High Horse");
+	$("h1").text("Sample: "+song);
 	$("h1").css("color", "blue");	
 });

@@ -5,3 +5,8 @@ h1 {
   text-shadow: 3px 0 #DA0463;
 
 }
+
+body {
+  text-align: center;
+  background-color: #283149;
+}

@@ -1,6 +1,6 @@
 var songs = [
-	"igitrdone.mp3",
-	"kick to beats.mp3",
+	"High Horse.mp3",
+	"Lake Life.mp3",
 ]
 
 $("h1").click(function() {

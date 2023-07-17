@@ -9,7 +9,6 @@ $("h1").click(function() {
 });
 
 $("button").click(function() {
-	alert(this.value);
 	var nums = this.innerHTML;
 	var song1 = new Audio(songs[nums]);
 	song1.play();

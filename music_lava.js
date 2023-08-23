@@ -27,6 +27,12 @@ $("button").click(function() {
 //	})
 });
 
+$(".tuning").click(function() {
+	var userChosenNote = $(this).attr("id");
+	var note = new Audio(userChosenNote +".m4a");
+	note.play();
+});
+
 //##auto make buttons with this.
 
 

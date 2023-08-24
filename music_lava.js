@@ -33,6 +33,10 @@ $(".tuning").click(function() {
 	note.play();
 });
 
+$(".rating").click(function(){
+	alert("confirm rating")
+});
+
 //##auto make buttons with this.
 
 

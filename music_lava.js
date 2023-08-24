@@ -34,7 +34,7 @@ $(".tuning").click(function() {
 });
 
 $(".rating").click(function(){
-	alert("confirm rating")
+	alert("confirm rating");
 });
 
 //##auto make buttons with this.

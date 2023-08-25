@@ -7,7 +7,7 @@ $("h1").click(function() {
 });
 
 $("img").click(function() {
-	alert("music lava")
+	alert("music lava");
 	
 });
 

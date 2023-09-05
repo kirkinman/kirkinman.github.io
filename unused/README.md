@@ -10,3 +10,5 @@ I code.
 - excel
 - swift
 - html
+- express
+- jquery

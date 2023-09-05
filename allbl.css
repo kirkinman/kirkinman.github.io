@@ -1,0 +1,37 @@
+h1 {
+	text-align: center;
+}
+
+.updater {
+	background-color: #F5F3C1;
+}
+
+.updater2 {
+	background-color: #FF8551;
+}
+
+.updater3 {
+	background-color: #F2BE22;
+}
+
+.updater4 {
+	background-color: #22A699;
+}
+
+li {
+	font-family: 'Orbitron', sans-serif;
+	
+}
+
+p {
+	font-family: 'Orbitron', sans-serif;
+	font-weight: bold;
+}
+
+.bar {	
+font-family: 'Orbitron', sans-serif;
+font-size: 72px;
+font-style: center;
+}
+
+
